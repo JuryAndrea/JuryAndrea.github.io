@@ -9,6 +9,7 @@ export default defineConfig({
   // base: '.', // Set a path prefix.
   outDir: 'docs', // Set the directory to build your site to.
   site: 'https://juryandrea.github.io/', // Use to generate your sitemap and canonical URLs in your final build.
+  base:'JuryAndrea.github.io',
   trailingSlash: 'always', // Use to always append '/' at end of url
   markdown: {
     shikiConfig: {
