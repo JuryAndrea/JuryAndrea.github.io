@@ -1,0 +1,29 @@
+---
+import type { IFrontmatter } from 'astro-boilerplate-components';
+
+
+import { Hero } from '@/partials/Hero';
+import { ProjectList } from '@/partials/ProjectList';
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+import { sortByDate } from '@/utils/Posts';
+import { Profile } from '@/partials/Profile';
+import { Contact } from '@/partials/Contact';
+import { Technologies } from '@/partials/Technologies';
+const allPosts = await Astro.glob<IFrontmatter>('./posts/*.md');
+const sortedPosts = sortByDate(allPosts);
+const lastThreePosts = sortedPosts.slice(0, 3);
+
+const { title } = AppConfig;
+const { description } = AppConfig;
+---
+
+<Base head={{ title, description }}>
+  <Hero />
+  <Profile />
+  <ProjectList />
+  <Technologies />
+  <Contact  />
+  <script src="src/partials/contact-form.js" defer></script>
+  
+</Base>
