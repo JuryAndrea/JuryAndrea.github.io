@@ -34,7 +34,7 @@ const Navbar = () => (
 
       {/* Bottone Download CV */}
       <a
-        href="./src/pdf/Jury_Andrea_DOnofrio_CV.pdf" // Sostituisci con il percorso corretto al tuo CV
+        href="src/pdf/Jury_Andrea_DOnofrio_CV.pdf" // Sostituisci con il percorso corretto al tuo CV
         className="bg-blue-400 text-white px-4 py-2 rounded-full flex items-center space-x-2 shadow-lg hover:bg-blue-500 transition-transform transform hover:scale-105"
         download
       >
