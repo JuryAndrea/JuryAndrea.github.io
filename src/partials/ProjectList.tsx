@@ -8,7 +8,7 @@ const ProjectList = () => (
   <section id='projects'>
     <Section
       title={
-        <div className="mt-4">
+        <div className=" md:mt-0 ml:mt-0 mt-4">
         <GradientText>Projects</GradientText>
       </div>
       }

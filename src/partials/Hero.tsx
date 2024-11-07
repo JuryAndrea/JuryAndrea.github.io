@@ -9,7 +9,7 @@ const Hero = () => (
     <Section>
       <HeroAvatar
         title={
-          <div className="text-8xl mt-4">
+          <div className="text-8xl md:mt-0 ml:mt-0 mt-4">
             Hi there,<br />I'm <GradientText>Jury</GradientText> 👋
           </div>
         }
@@ -21,7 +21,7 @@ const Hero = () => (
         }
         avatar={
           <img
-            className="h-70 w-80 rounded-full"
+            className="h-70 w-80 rounded-full md:mt-0 ml:mt-0 mt-8"
             src="./assets/images/profile_4.jpeg"
             alt="Avatar image"
             loading="lazy"
