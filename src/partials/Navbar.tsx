@@ -33,6 +33,8 @@ const Navbar = () => (
           href="./Jury_Andrea_DOnofrio_CV.pdf"
           className="bg-blue-400 text-white px-4 py-2 rounded-full flex items-center space-x-2 shadow-lg hover:bg-blue-500 transition-transform transform hover:scale-105 mt-2 md:mt-0"
           download
+          target="_blank"  // Apre il link in una nuova scheda
+          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faDownload} className="h-5 w-5" />
           <span>DOWNLOAD CV</span>
