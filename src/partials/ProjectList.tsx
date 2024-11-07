@@ -8,9 +8,9 @@ const ProjectList = () => (
   <section id='projects'>
     <Section
       title={
-        <>
-          <GradientText>Projects</GradientText>
-        </>
+        <div className="mt-4">
+        <GradientText>Projects</GradientText>
+      </div>
       }
     >
       {/* <p className="text-white-600 mb-8">

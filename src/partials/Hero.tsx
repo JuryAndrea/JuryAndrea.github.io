@@ -9,7 +9,7 @@ const Hero = () => (
     <Section>
       <HeroAvatar
         title={
-          <div className="text-8xl">
+          <div className="text-8xl mt-4">
             Hi there,<br />I'm <GradientText>Jury</GradientText> 👋
           </div>
         }
