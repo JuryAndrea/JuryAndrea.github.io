@@ -24,7 +24,7 @@ const ProjectList = () => (
           <div className="relative pl-6 border-l-2 border-blue-jury mb-8">
             <div className="absolute left-[-0.55rem] w-4 h-4 border-2 border-blue-jury rounded-full bg-yellow-400"></div>
             <h4 className="text-lg font-bold text-white-800">Master Thesis</h4>
-            <p className="text-sm text-gray-400 italic">Sept 2022 - Sept 2024 | Università della Svizzera italiana, Lugano (CH)</p>
+            <p className="text-sm text-gray-400 italic">Sept 2022 - Sept 2024 | Dalle Molle Institute for Artificial Intelligence USI-SUPSI (IDSIA), Lugano (CH)</p>
             <p className="text-white-600 mt-2 text-justify text-base">
               Developed a novel approach for autonomous obstacle avoidance on nano-drones in low-visibility conditions
               using a <GradientText>sensor fusion approach</GradientText>. Focused on the <GradientText>Crazyflie 2.1 platform</GradientText>, the study

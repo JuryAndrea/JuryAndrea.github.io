@@ -4,7 +4,7 @@ import {
   Section,
 } from 'astro-boilerplate-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => (
 

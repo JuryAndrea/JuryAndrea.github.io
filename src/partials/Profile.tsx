@@ -22,8 +22,8 @@ const Profile = () => (
 
     <p className="leading-relaxed mt-4 text-lg text-justify">
       <GradientText>Master’s in Artificial Intelligence</GradientText> from <a href="https://www.usi.ch/en/education/master/artificial-intelligence" className="text-electric-blue hover:underline underline" target="_blank" rel="noopener noreferrer"> Università della Svizzera italiana</a> and a solid background in <GradientText> Informatics</GradientText>, I am passionate about transforming complex ideas into practical,
-      real-world solutions. My recent thesis,
-      focused on a <GradientText>CNN-based obstacle avoidance system</GradientText> for nano-drones at the <a href="https://www.idsia.ch" className="text-electric-blue hover:underline underline" target="_blank" rel="noopener noreferrer">IDSIA</a>
+      real-world solutions. My recent master thesis,
+      focused on a <GradientText>CNN-based obstacle avoidance system</GradientText> for nano-drones at the <a href="https://www.idsia.ch" className="text-electric-blue hover:underline underline" target="_blank" rel="noopener noreferrer">Dalle Molle Institute for Artificial Intelligence USI-SUPSI (IDSIA)</a>
       <GradientText> Robotics Lab</GradientText>, challenging me to merge cutting-edge
       <GradientText> vision-depth fusion techniques</GradientText> with compact, resource-constrained environments.
     </p>
